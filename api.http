@@ -1,1 +1,7 @@
-GET http://localhost:3000/places?text=av comendador franco, curitiba, 1000
+GET http://localhost:3000/places?text=av governador valadares, betim, 210
+
+###
+@originId = ChIJ62MB1vjk3JQR_iVuFZz_USg
+@destinationId = ChIJPf1uh5DDpgAR5oRvDWShABI
+###
+GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
