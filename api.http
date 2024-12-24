@@ -1,7 +1,7 @@
-GET http://localhost:3000/places?text=av governador valadares, betim, 210
+GET http://localhost:3000/places?text=rua rubyn hein, curitiba, 200
 
 ###
-@originId = ChIJ62MB1vjk3JQR_iVuFZz_USg
-@destinationId = ChIJPf1uh5DDpgAR5oRvDWShABI
+@originId = EkpBdi4gTWFsLiBGbG9yaWFubyBQZWl4b3RvLCAyMDAgLSBQYXJvbGluLCBDdXJpdGliYSAtIFBSLCA4MDMyMC0xMTAsIEJyYXNpbCIxEi8KFAoSCQ-U-uJs5NyUETwDSVVQtJm8EMgBKhQKEgnfbamrKvvclBFetSKQuGxCdg
+@destinationId = Ej9SdWEgUnVieW4gSGVpbiwgMjAwIC0gVWJlcmFiYSwgQ3VyaXRpYmEgLSBQUiwgODE1NjAtMDAxLCBCcmFzaWwiMRIvChQKEgmZwMbbvfrclBEutu6c6U4LrhDIASoUChIJlZ3n2b363JQR9ouO8Y4An64
 ###
 GET http://localhost:3000/directions?originId={{originId}}&destinationId={{destinationId}}
