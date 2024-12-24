@@ -6,7 +6,7 @@ import { PrismaService } from 'src/prisma/prisma.service';
 @Injectable()
 export class RoutesService {
 
-  constructor(private pismaService: PrismaService) {
+  constructor(private prismaService: PrismaService) {
   }
 
   create(createRouteDto: CreateRouteDto) {
